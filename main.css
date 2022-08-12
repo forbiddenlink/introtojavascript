@@ -2,8 +2,13 @@ body {
     font: 15px arial, sans-serif;
     color: #808080;
 }
+
 input[type=text],
-select ,input[type=password],radio{
+textarea,
+
+select,
+input[type=password],
+radio {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -12,7 +17,8 @@ select ,input[type=password],radio{
     border-radius: 4px;
     box-sizing: border-box;
 }
-input[type=submit] ,input[type=button]{
+
+input[type=submit] {
     width: 100%;
     background-color: #800D1E;
     color: white;
@@ -22,20 +28,24 @@ input[type=submit] ,input[type=button]{
     border-radius: 4px;
     cursor: pointer;
 }
-input[type=submit]:hover ;input[type=button]:hover {
+
+input[type=submit]:hover {
     background-color: #802F1E;
 }
+
 section {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
 }
+
 article {
     border-radius: 5px;
     background-color: #CCCCCC;
     padding: 20px;
     color: #222222;
 }
+
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -43,9 +53,11 @@ ul.topnav {
     overflow: hidden;
     background-color: #333;
 }
+
 ul.topnav li {
     float: left;
 }
+
 ul.topnav li a {
     display: block;
     color: white;
@@ -53,22 +65,28 @@ ul.topnav li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 ul.topnav li a:hover:not(.active) {
     background-color: #111;
 }
+
 ul.topnav li a.active {
     background-color: #CCCCCC;
     color: #333
 }
+
 ul.topnav li.right {
     float: right;
 }
+
 @media screen and (max-width: 600px) {
     ul.topnav li.right,
     ul.topnav li {
         float: none;
     }
+
 }
+
 .top {
     position: relative;
     background-color: #ffffff;
@@ -78,6 +96,7 @@ ul.topnav li.right {
     overflow: hidden;
     z-index: 2;
 }
+
 .logo {
     font-family: arial;
     text-decoration: none;
@@ -91,9 +110,11 @@ ul.topnav li.right {
     position: absolute;
     top: 17px;
 }
+
 .logo .dotcom {
     color: #800D1E
 }
+
 .topnav {
     position: relative;
     z-index: 2;
@@ -104,6 +125,7 @@ ul.topnav li.right {
     padding: 0;
     letter-spacing: 1px;
 }
+
 .top .logo {
     position: relative;
     top: 0;
@@ -111,6 +133,7 @@ ul.topnav li.right {
     text-align: left;
     margin: auto
 }
+
 footer {
     position: absolute;
     right: 0;
@@ -120,6 +143,7 @@ footer {
     background-color: #efefef;
     text-align: center;
 }
+
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
